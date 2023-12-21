@@ -91,6 +91,7 @@ export const getOne = async (req, res) => {
         message: "No staff found",
       });
     }
+    // sample
   } catch (error) {
     return res.status(500).json({
       message: error.message || "something went wrong",
